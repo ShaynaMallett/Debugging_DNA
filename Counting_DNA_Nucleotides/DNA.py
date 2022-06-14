@@ -17,9 +17,9 @@ def main():
     #Note: Use a dictionary to hash nucleotides rather than using if/else gates
     nucleotides = defaultdict(int)
 
-    #Iterate the string
+    #Iterate the string once
     #Note: Don't use built in functions to count each number independently. 
-    #      This will iterate the string each time rather than just once.
+    #      That would iterate the string each time rather than just once.
     for n in dna:
         nucleotides[n] += 1  
 
