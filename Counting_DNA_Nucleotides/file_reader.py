@@ -17,5 +17,4 @@ def read_string(file_name):
     dna = ''
     with open(file, 'r') as data:
         dna = data.readline()
-        data.close
     return dna
